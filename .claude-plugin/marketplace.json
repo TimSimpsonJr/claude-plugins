@@ -1,0 +1,22 @@
+{
+  "name": "claude-plugins",
+  "owner": {
+    "name": "Tim Simpson"
+  },
+  "metadata": {
+    "description": "Personal Claude Code plugins",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "research-workflow",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/TimSimpsonJr/research-workflow.git"
+      },
+      "description": "Deep research pipeline for Obsidian vaults. Batch research, thread-pulling, media capture, vault-aware classification.",
+      "version": "2.0.0",
+      "strict": true
+    }
+  ]
+}
